@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 44
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 45
+  controlID: 10
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 46
+  controlID: 11
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,9 +365,9 @@ MonoBehaviour:
     height: 344
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0cfbffff
-    m_LastClickedID: -1268
-    m_ExpandedIDs: 8cb1ffff44c3ffff84e5ffff8aeeffffe6fbffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: e6fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,15 +416,15 @@ MonoBehaviour:
     y: 91
     width: 851
     height: 344
-  m_SceneLighting: 1
+  m_SceneLighting: 0
   lastFramingTime: 3049.2016873448206
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.598133, y: -5.280987, z: -17.334105}
+    m_Target: {x: 9.599219, y: -2.8151634, z: -9.678047}
     speed: 2
-    m_Value: {x: -2.598133, y: -5.280987, z: -17.334105}
+    m_Value: {x: 9.599219, y: -2.8151634, z: -9.678047}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -447,13 +447,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.054760337, y: -0.90732664, z: 0.12490769, w: 0.39770588}
+    m_Target: {x: 0.47105134, y: -0.44193769, z: 0.29577363, w: 0.70381093}
     speed: 2
-    m_Value: {x: 0.054760005, y: -0.9073211, z: 0.12490693, w: 0.39770347}
+    m_Value: {x: 0.47104427, y: -0.44193104, z: 0.29576918, w: 0.7038004}
   m_Size:
-    m_Target: 26.522692
+    m_Target: 65.03937
     speed: 2
-    m_Value: 26.522692
+    m_Value: 65.03937
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -527,19 +527,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/Materials/Tex
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Materials/Tex
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Erin\Documents\XKCDJam11-17\XKCD-Jam
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68250000
-    m_LastClickedID: 9576
-    m_ExpandedIDs: 000000009c24000000ca9a3bffffff7f
+    m_SelectedIDs: 22270000
+    m_LastClickedID: 10018
+    m_ExpandedIDs: 000000009c2400004e25000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
