@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 491f8c5cded9ee1448563d1686adc37d
-timeCreated: 1511116769
+guid: b1e0e4dbc7d80d942b4b36896d29e83b
+timeCreated: 1511123770
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -27,18 +27,37 @@ ModelImporter:
     3300004: pCylinder7
     3300006: pCylinder8
     3300008: pCylinder9
-    4300000: pCylinder7
-    4300002: pCylinder8
-    4300004: pCylinder9
-    4300006: pCylinder10
-    4300008: pCylinder11
-    9500000: //RootNode
+    4300000: pCylinder10
+    4300002: pCylinder11
+    4300004: pCylinder7
+    4300006: pCylinder8
+    4300008: pCylinder9
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 614831ec90db7444fa90a6f92494c02f, type: 2}
+      name: pCylinder10Mat
+    second: {fileID: 2100000, guid: 1a0b9b57deec4314f8c9fca217910be0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder11Mat
+    second: {fileID: 2100000, guid: 406e0503d619e9d41b3c590a7ad45415, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder7Mat
+    second: {fileID: 2100000, guid: 0131927890ced684cb27fe712bf86408, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder8Mat
+    second: {fileID: 2100000, guid: ac71e62715469d44aa5376cc64043724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder9Mat
+    second: {fileID: 2100000, guid: dae6abb42bdaf9d418b8f426247f1a31, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -110,7 +129,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

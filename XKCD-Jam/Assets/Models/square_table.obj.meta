@@ -1,44 +1,63 @@
 fileFormatVersion: 2
-guid: 491f8c5cded9ee1448563d1686adc37d
-timeCreated: 1511116769
+guid: 2da10bb0991c88242937bbc8c9d7ad44
+timeCreated: 1511123769
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: pCylinder10
-    100002: pCylinder11
+    100000: pCube1
+    100002: pCylinder10
     100004: pCylinder7
     100006: pCylinder8
     100008: pCylinder9
     100010: //RootNode
-    400000: pCylinder10
-    400002: pCylinder11
+    400000: pCube1
+    400002: pCylinder10
     400004: pCylinder7
     400006: pCylinder8
     400008: pCylinder9
     400010: //RootNode
-    2300000: pCylinder10
-    2300002: pCylinder11
+    2300000: pCube1
+    2300002: pCylinder10
     2300004: pCylinder7
     2300006: pCylinder8
     2300008: pCylinder9
-    3300000: pCylinder10
-    3300002: pCylinder11
+    3300000: pCube1
+    3300002: pCylinder10
     3300004: pCylinder7
     3300006: pCylinder8
     3300008: pCylinder9
-    4300000: pCylinder7
-    4300002: pCylinder8
-    4300004: pCylinder9
-    4300006: pCylinder10
-    4300008: pCylinder11
-    9500000: //RootNode
+    4300000: pCube1
+    4300002: pCylinder10
+    4300004: pCylinder7
+    4300006: pCylinder8
+    4300008: pCylinder9
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 614831ec90db7444fa90a6f92494c02f, type: 2}
+      name: pCube1Mat
+    second: {fileID: 2100000, guid: 00a82d090e4c1e34f89617d68ca9d555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder10Mat
+    second: {fileID: 2100000, guid: 1a0b9b57deec4314f8c9fca217910be0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder7Mat
+    second: {fileID: 2100000, guid: 0131927890ced684cb27fe712bf86408, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder8Mat
+    second: {fileID: 2100000, guid: ac71e62715469d44aa5376cc64043724, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder9Mat
+    second: {fileID: 2100000, guid: dae6abb42bdaf9d418b8f426247f1a31, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -110,7 +129,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
