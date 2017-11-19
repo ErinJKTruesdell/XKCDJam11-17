@@ -35,6 +35,12 @@ public class PlayerController : MonoBehaviour {
             transform.position = transform.position + newGo;
 
         }
+        if (Input.GetAxis("Vertical") < 0)
+        {
+            Vector3 newGo = transform.forward.normalized * playerSpeed * .01f;
+            transform.position = transform.position - newGo;
+
+        }
 
         else
         {
