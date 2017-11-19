@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour {
 
     public float playerSpeed;
     public Rigidbody rb;
+    public float rotateSpeed;
 
 	// Use this for initialization
 	void Start () {
@@ -13,31 +14,36 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-        Vector3 dir = Vector3.zero;
+        
+        //rotate character
 
         if(Input.GetAxis("Horizontal") > 0)
         {
-            dir.x += 1;
+            transform.Rotate(Vector3.up, rotateSpeed);
 
         }
-		else if (Input.GetAxis("Horizontal") < 0)
+
+        if (Input.GetAxis("Horizontal") < 0)
         {
-            dir.x -= 1;
+            transform.Rotate(Vector3.up, -1 * rotateSpeed);
 
         }
 
         if (Input.GetAxis("Vertical") > 0)
         {
-            dir.z += 1;
+            Vector3 newGo = transform.forward.normalized * playerSpeed;
+            rb.velocity = newGo;
 
         }
-        else if (Input.GetAxis("Vertical") < 0)
+
+        else
         {
-            dir.z -= 1;
-        }
+            rb.velocity = Vector3.zero;
 
-        dir = dir.normalized * playerSpeed;
-        rb.velocity = dir;
+        }
+        
+
+
+
     }
 }

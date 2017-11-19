@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "C:/Users/Erin/DOCUME~1/XKCDJA~1/XKCD-Jam/Assets/Models/cork.ma"`)
+{		
+	file -o "C:/Users/Erin/DOCUME~1/XKCDJA~1/XKCD-Jam/Assets/Models/cork.ma";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "C:/Users/Erin/DOCUME~1/XKCDJA~1/XKCD-Jam/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "C:/Users/Erin/DOCUME~1/XKCDJA~1/XKCD-Jam/Temp/CommandPipe";
+
+$donepipeKill = `fopen "C:/Users/Erin/DOCUME~1/XKCDJA~1/XKCD-Jam/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
